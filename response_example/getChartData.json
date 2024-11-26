@@ -1,0 +1,56 @@
+// API_URL/api/v1/pollen/chart
+
+{
+  "success": 1,
+  "results": [
+    {
+      "date": "2024-11-25",
+      "current": 0.5,
+      "average": 0.6,
+      "season": "false",
+      "datetime": 1732497769112
+    },
+    {
+      "date": "2024-11-24",
+      "current": 0.3,
+      "average": 1.7,
+      "season": "false",
+      "datetime": 1732411369112
+    },
+    {
+      "date": "2024-11-23",
+      "current": 1.1,
+      "average": 1,
+      "season": "false",
+      "datetime": 1732324969112
+    },
+    {
+      "date": "2024-11-22",
+      "current": 1.1,
+      "average": 1.9,
+      "season": "false",
+      "datetime": 1732238569112
+    },
+    {
+      "date": "2024-11-21",
+      "current": 1.1,
+      "average": 1.5,
+      "season": "false",
+      "datetime": 1732152169112
+    },
+    {
+      "date": "2024-11-20",
+      "current": 1.2,
+      "average": 0.5,
+      "season": "false",
+      "datetime": 1732065769112
+    },
+    {
+      "date": "2024-11-19",
+      "current": 1.4,
+      "average": 1.1,
+      "season": "false",
+      "datetime": 1731979369112
+    }
+  ]
+}
