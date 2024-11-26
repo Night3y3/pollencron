@@ -7,7 +7,6 @@ import (
 	"time"
 
 	"github.com/Night3y3/pollencron/utils"
-	"github.com/joho/godotenv"
 )
 
 type HourlyLoadResult struct {
@@ -31,10 +30,6 @@ type CurrentChartDataResponse struct {
 }
 
 func GetHourlyLoadData() (*string, error) {
-	err := godotenv.Load()
-	if err != nil {
-		return nil,err
-	}
 
 	api_url := os.Getenv("API_URL")
 
@@ -57,10 +52,6 @@ func GetHourlyLoadData() (*string, error) {
 }
  
 func GetCurrentChartData() (*string, error) {
-	err := godotenv.Load()
-	if err != nil {
-		return nil,err
-	}
 
 	api_url := os.Getenv("API_URL")
 

@@ -6,10 +6,15 @@ import (
 
 	"github.com/Night3y3/pollencron/allergy_api"
 	"github.com/Night3y3/pollencron/utils"
+	"github.com/joho/godotenv"
 	"github.com/robfig/cron"
 )
 
 func main() {
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatal("Error loading .env file")
+	}
 	loc, err := time.LoadLocation("Asia/Tokyo")
 	checkNilError(err)
 	cronJob := cron.NewWithLocation(loc)
